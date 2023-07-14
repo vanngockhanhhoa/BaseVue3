@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Hiragino Kaku Gothic Pro';
+  font-weight: normal;
+  src: url(~@/assets/fonts/Hiragino-Kaku-Gothic-ProN-W3.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Hiragino Kaku Gothic Pro';
+  font-weight: bold;
+  src: url(~@/assets/fonts/Hiragino-Kaku-Gothic-ProN-W3.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'MS PGothic';
+  font-weight: normal;
+  src: local('MS PGothic'),
+    url(~@/assets/fonts/MS-PGothic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'MS PGothic';
+  font-weight: bold;
+  src: local('MS PGothic'),
+    url(~@/assets/fonts/MS-PGothic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Meiryo';
+  font-weight: normal;
+  src: local('Meiryo'),
+    url(~@/assets/fonts/meiryo.ttc) format('truetype');
+}
+
+@font-face {
+  font-family: 'Meiryo';
+  font-weight: bold;
+  src: local('Meiryo'),
+    url(~@/assets/fonts/meiryob.ttc) format('truetype');
+}

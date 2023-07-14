@@ -1,0 +1,14 @@
+.wrapper {
+  width: 100%;
+  @include ltr-rtl("padding-left", var(--cui-sidebar-occupy-start, 0));
+  will-change: auto;
+  @include transition(padding .15s);
+}
+
+.vld-overlay {
+  &.is-active {
+    @include ltr-rtl("margin-left", var(--cui-sidebar-occupy-start, 0));
+    will-change: auto;
+    @include transition(padding .15s);
+  }
+}
